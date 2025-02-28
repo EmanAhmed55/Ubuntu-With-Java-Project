@@ -50,19 +50,29 @@ It provides a terminal-based interface and a Graphical User Interface (GUI) menu
 .SH NAME
 project4 \- A tool to change file permissions, create symbolic links, and manage process IDs.
 .SH SYNOPSIS
-project4
+.B project4
 .SH DESCRIPTION
 This project provides a GUI menu with options for the following:
-1. Change file permissions.
-2. Create symbolic links.
-3. Save process IDs to a file.
+.IP 1. Change file permissions.
+.IP 2. Create symbolic links.
+.IP 3. Save process IDs to a file.
 
-You can also run project4 from the terminal with DOS commands as arguments:
-- `project4 dir` will run the `ls` command.
+You can also run 
+.B project4 
+from the terminal with DOS commands as arguments:
+.TP
+.B project4 dir
+will run the 
+.I ls 
+command.
 .SH OPTIONS
 .EX
-dir    Run `ls` to list files.
+dir    Run 
+.I ls
+to list files.
 .SH AUTHOR
 Developed by your team members.
+
 To install the manual page, move it to /usr/share/man/man1/:
 sudo mv project4.1 /usr/share/man/man1/
+
